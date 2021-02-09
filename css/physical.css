@@ -1,0 +1,1772 @@
+h2 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+/*********** INTRODUCE ***********/
+
+.introduce {
+  position: relative;
+  padding: 117px 0 512px;
+}
+
+.introduce h1 {
+  font-family: 'Futura PT Demi', sans-serif;
+  font-size: 58px;
+  line-height: 62px;
+  text-align: center;
+  width: 557px;
+  margin: 0 auto;
+}
+
+.introduce .container > img {
+  position: absolute;
+  transition: opacity 0.5s linear;
+}
+
+.introduce .container > img:not(:first-of-type) {
+  display: none;
+}
+
+.introduce .container > img:first-of-type {
+  top: 38px;
+  left: calc(50% - 810px);
+  z-index: 1;
+}
+
+#search-btn {
+  position: absolute;
+  top: 290px;
+  left: calc(50% + 227.5px);
+  z-index: 3;
+  width: 76px;
+  height: 76px;
+  background: #ffc854;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  padding: 20px;
+  outline: none;
+  border: none;
+}
+
+#search {
+  width: 608px;
+  height: 76px;
+  outline: none;
+  background: #f7f8f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  position: absolute;
+  top: 290px;
+  left: calc(50% - 304px);
+  padding: 15px 0 16px 23px;
+  font-size: 30px;
+  line-height: 45px;
+  z-index: 2;
+}
+
+.introduce input::-webkit-input-placeholder {
+  color: #bcbcbc;
+}
+
+.introduce input::-moz-placeholder {
+  color: #bcbcbc;
+}
+
+.introduce input:-ms-input-placeholder {
+  color: #bcbcbc;
+}
+
+.introduce input::-ms-input-placeholder {
+  color: #bcbcbc;
+}
+
+.introduce input::placeholder {
+  color: #bcbcbc;
+}
+
+/*********** OFFERS ***********/
+
+#offers {
+  padding: 347px 0 200px;
+  background: #f7f8f9;
+}
+
+.offers-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description-text h2 {
+  font-family: 'Futura PT Bold', sans-serif;
+  width: 590px;
+  margin-bottom: 40px;
+}
+
+.description-text span {
+  color: #fd6f55;
+  font-size: 41px;
+}
+
+.description-text h3 {
+  width: 560px;
+}
+
+.offers-description img {
+  width: 681px;
+  height: 191px;
+  margin-top: 70px;
+}
+
+.offers-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 132px;
+}
+
+.card {
+  width: 327px;
+  height: 187px;
+  border: 1px dashed #efefef;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02),
+    -1px 5px 34px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 129px 0 0 30px;
+  transition: all 0.35s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+.card:first-of-type {
+  background: url(../img/icon/goods-sale.svg) no-repeat 184px 11px,
+    url(../img/icon/cubes.svg) no-repeat, #ffffff;
+}
+
+.card:nth-of-type(2) {
+  background: url(../img/icon/tools.svg) no-repeat 184px 11px,
+    url(../img/icon/cubes.svg) no-repeat, #ffffff;
+}
+
+.card:last-of-type {
+  background: url(../img/icon/market.svg) no-repeat 184px 11px,
+    url(../img/icon/cubes.svg) no-repeat, #ffffff;
+}
+
+.card a {
+  font-family: 'Futura PT Demi', sans-serif;
+  font-size: 22px;
+  display: inline-block;
+  background: url(../img/icon/card-arrow.svg) no-repeat right 10px;
+  transition: all 0.25s ease-in-out;
+}
+
+.card a:hover,
+.card a:active {
+  color: #666666;
+  background: url(../img/icon/card-arrow-hover.svg) no-repeat right 10px;
+}
+
+.card:first-of-type a {
+  width: 98px;
+}
+
+.card:nth-of-type(2) a {
+  width: 92px;
+}
+
+.card:last-of-type a {
+  width: 132px;
+}
+
+/*********** BENEFITS ***********/
+
+#benefits {
+  padding: 200px 0;
+}
+
+#benefits h2 {
+  font-family: 'Futura PT Demi', sans-serif;
+  margin-bottom: 95px;
+  width: 560px;
+}
+
+#benefits h3 {
+  width: 606px;
+}
+
+#benefits span {
+  font-family: 'Lato Bold', sans-serif;
+}
+
+.benefit {
+  display: flex;
+  position: relative;
+}
+
+.benefit:nth-of-type(2) {
+  margin: 150px 0;
+  flex-direction: row-reverse;
+}
+
+.benefit:first-of-type img {
+  width: 591.69px;
+  height: 436.24px;
+}
+
+.benefit:first-of-type h3 {
+  margin: 83px 0 0 53%;
+}
+
+.benefit:first-of-type img {
+  position: absolute;
+  margin-left: -45px;
+}
+
+.benefit:nth-of-type(2) img {
+  width: 668px;
+  height: 395px;
+}
+
+.benefit:last-of-type img {
+  position: absolute;
+  margin-left: -85px;
+}
+
+.benefit:nth-of-type(2) h3 {
+  margin: 51px 102px 0 0;
+}
+
+.benefit:last-of-type img {
+  width: 637px;
+  height: 245px;
+}
+
+.benefit:last-of-type h3 {
+  margin: 70px 0 0 53%;
+}
+
+/*********** PROMO-VIDEO ***********/
+
+.promo-video {
+  background: #f7f8f9;
+}
+
+.promo-video .container {
+  position: relative;
+}
+
+.promo-video img,
+.promo-video iframe {
+  position: absolute;
+}
+
+.promo-video img:first-of-type {
+  top: 56px;
+  opacity: 0;
+  transition: opacity 0.5s linear 0.75s;
+}
+
+.promo-video img:nth-of-type(2) {
+  top: 172px;
+  right: 20px;
+  opacity: 0;
+  transition: opacity 0.5s linear 1s;
+}
+
+.promo-video img:nth-of-type(3) {
+  top: 10px;
+  left: 145px;
+  opacity: 0;
+  transition: opacity 0.5s linear 0.5s;
+}
+
+.promo-video img:nth-of-type(4) {
+  top: 27px;
+  left: 265px;
+}
+
+.promo-video iframe {
+  top: 110px;
+  left: 375px;
+  width: 673px;
+  height: 361px;
+  border: 0;
+  box-shadow: -1px 5px 34px 6px rgba(0, 0, 0, 0.17);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.04));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.04));
+  border-radius: 10px;
+}
+
+.promo-video p {
+  color: #000000;
+  padding: 140px 0 132px 42px;
+  font-family: 'Futura PT Book', sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+/*********** SLIDER ***********/
+
+#slider {
+  padding: 355px 0 200px;
+}
+
+.get-offers,
+.share-with-friends,
+.give-feedback {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: all 0.25s ease-in-out;
+}
+
+#slider .container > div:not(:last-of-type) {
+  margin: 0 0 200px;
+}
+
+#slider h2 {
+  font-family: 'Futura PT Demi';
+  width: 477px;
+  margin-bottom: 40px;
+}
+
+.slide-text {
+  width: 46%;
+}
+
+.give-feedback .slide-text h3 {
+  width: 95%;
+}
+
+#slider h3:not(:last-of-type) {
+  margin-bottom: 17px;
+}
+
+#slider span {
+  font-family: 'Lato Bold', sans-serif;
+}
+
+/*********** CALL-TO-ACTION ***********/
+
+.call-to-action {
+  padding: 86px 0;
+  background: url(../img/physical/pic9.svg) no-repeat, #eef5ff;
+  background-size: cover;
+  height: 387px;
+}
+
+.call-to-action h1 {
+  font-family: 'Futura PT Demi', sans-serif;
+  font-size: 42px;
+  line-height: 50px;
+  width: 547px;
+  color: #000000;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 65px;
+}
+
+.call-to-action a {
+  font-size: 24px;
+  line-height: 34px;
+  margin-left: calc(50% - 144px);
+  padding: 17px 40px 19px;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+
+  /*********** INTRODUCE ***********/
+
+  .introduce {
+    padding: 80px 0 450px;
+  }
+
+  .introduce .container > img:first-of-type {
+    width: 1300px;
+    top: 40px;
+    left: calc(50% - 690px);
+  }
+
+  #search,
+  #search-btn {
+    top: 240px;
+  }
+
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 300px 0 200px;
+  }
+}
+
+@media screen and (max-width: 1415px) {
+  /*********** OFFERS ***********/
+
+  .offers-description img {
+    width: 600px;
+    height: auto;
+    margin-top: 75px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 250px 0 150px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  #benefits {
+    padding: 150px 0;
+  }
+
+  .benefit:nth-of-type(2) {
+    margin: 100px 0;
+  }
+
+  .benefit:first-of-type img {
+    width: 473px;
+    height: auto;
+  }
+
+  .benefit:first-of-type h3 {
+    margin: 30px 0 0 47%;
+  }
+
+  .benefit:nth-of-type(2) img {
+    width: 534px;
+    height: auto;
+  }
+
+  .benefit:nth-of-type(2) h3 {
+    margin: 51px 70px 0 0;
+  }
+
+  .benefit:last-of-type img {
+    width: 510px;
+    height: auto;
+    margin-left: -50px;
+  }
+
+  .benefit:last-of-type h3 {
+    margin: 50px 0 0 47%;
+  }
+
+  /*********** SLIDER ***********/
+
+  #slider {
+    padding: 300px 0 150px;
+  }
+
+  #slider .container > div:not(:last-of-type) {
+    margin: 0 0 150px;
+  }
+
+  .get-offers img {
+    width: 372px;
+  }
+
+  .share-with-friends img {
+    width: 365px;
+  }
+
+  .give-feedback img {
+    width: 349px;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce {
+    padding: 50px 0 385px;
+  }
+
+  .introduce .container > img:first-of-type {
+    width: 1100px;
+    top: 40px;
+    left: calc(50% - 585px);
+  }
+
+  #search,
+  #search-btn {
+    top: 195px;
+  }
+
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 225px 0 150px;
+  }
+
+  .offers-description img {
+    width: 500px;
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  /*********** OFFERS ***********/
+
+  .offers-description {
+    flex-direction: column;
+  }
+
+  .offers-description img {
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 37%;
+  }
+
+  .offers-cards {
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  /*********** PROMO-VIDEO ***********/
+
+  .promo-video img:nth-of-type(2) {
+    display: none;
+  }
+
+  .promo-video img:nth-of-type(4) {
+    width: 700px;
+    left: 255px;
+  }
+
+  .promo-video iframe {
+    width: 550px;
+    left: 350px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  /*********** OFFERS ***********/
+
+  .card {
+    width: 260px;
+  }
+
+  .card:first-of-type {
+    background: url(../img/icon/goods-sale.svg) no-repeat 146px 6.5px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+  }
+
+  .card:nth-of-type(2) {
+    background: url(../img/icon/tools.svg) no-repeat 146px 6.5px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+  }
+
+  .card:last-of-type {
+    background: url(../img/icon/market.svg) no-repeat 146px 6.5px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+  }
+
+  /*********** BENEFITS ***********/
+
+  .benefit:first-of-type h3 {
+    margin: 0px 0 0 47%;
+  }
+
+  .benefit:nth-of-type(2) {
+    display: block;
+  }
+
+  .benefit:nth-of-type(2) img {
+    float: right;
+    width: 500px;
+  }
+
+  #benefits .benefit:nth-of-type(2) h3 {
+    width: auto;
+    margin: 0;
+    padding-top: 40px;
+  }
+
+  .benefit:last-of-type h3 {
+    margin: 25px 0 0 47%;
+  }
+
+  .benefit:last-of-type img {
+    width: 450px;
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce {
+    padding: 50px 0 475px;
+  }
+
+  .introduce .container > img:first-of-type {
+    display: none;
+  }
+
+  .introduce .container > img:not(:first-of-type) {
+    display: block;
+  }
+
+  .introduce .container > img:nth-of-type(2) {
+    top: 220px;
+    left: calc(50% - 476px);
+  }
+
+  .introduce .container > img:nth-of-type(3) {
+    top: 225px;
+    left: 5%;
+  }
+
+  .introduce .container > img:nth-of-type(4) {
+    top: 25px;
+    left: 15%;
+  }
+
+  .introduce .container > img:nth-of-type(5) {
+    top: 0;
+    left: 75%;
+  }
+
+  .introduce .container > img:nth-of-type(6) {
+    top: 190px;
+    right: 5%;
+  }
+
+  .introduce .container > img:last-of-type {
+    top: 500px;
+    right: 30px;
+  }
+
+  #offers {
+    padding: 275px 0 150px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  #benefits .benefit:nth-of-type(2) h3 {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  /*********** OFFERS ***********/
+
+  .offers-description img {
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 30%;
+  }
+
+  /*********** BENEFITS ***********/
+
+  .benefit:first-of-type {
+    display: block;
+  }
+
+  .benefit:first-of-type img {
+    width: 378px;
+    margin: 0 15px 0 -25px;
+    float: left;
+    position: static;
+  }
+
+  #benefits .benefit:first-of-type h3 {
+    width: auto;
+    margin: 0;
+    padding-top: 65px;
+  }
+
+  .benefit:last-of-type h3 {
+    margin: 15px 0 0 52%;
+  }
+
+  /*********** PROMO-VIDEO ***********/
+
+  .promo-video img:nth-of-type(4) {
+    width: 650px;
+    left: 200px;
+    top: 47px;
+  }
+
+  .promo-video iframe {
+    width: 530px;
+    left: 270px;
+  }
+
+  /*********** SLIDER ***********/
+
+  .get-offers img {
+    width: 298px;
+  }
+
+  .share-with-friends img {
+    width: 292px;
+  }
+
+  .give-feedback img {
+    width: 279px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce {
+    padding: 50px 0 390px;
+  }
+
+  .introduce .container > img:nth-of-type(2) {
+    width: 750px;
+    top: 220px;
+    left: calc(50% - 375px);
+  }
+
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 215px 0 100px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  #benefits {
+    padding: 100px 0;
+  }
+
+  #benefits h2 {
+    margin-bottom: 70px;
+  }
+
+  .benefit:nth-of-type(2) {
+    margin: 70px 0;
+  }
+
+  /*********** SLIDER ***********/
+
+  #slider {
+    padding: 250px 0 100px;
+  }
+
+  #slider .container > div:not(:last-of-type) {
+    margin: 0 0 100px;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  /*********** OFFERS ***********/
+
+  .card {
+    width: 200px;
+  }
+
+  .card:first-of-type {
+    background: url(../img/icon/goods-sale.svg) no-repeat 86px 6.5px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+  }
+
+  .card:nth-of-type(2) {
+    background: url(../img/icon/tools.svg) no-repeat 86px 10px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+  }
+
+  .card:last-of-type {
+    background: url(../img/icon/market.svg) no-repeat 86px 13px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+  }
+
+  /*********** BENEFITS ***********/
+
+  #benefits .benefit:first-of-type h3 {
+    padding-top: 35px;
+  }
+
+  .benefit:nth-of-type(2) img {
+    width: 400px;
+    margin-top: 25px;
+  }
+
+  #benefits .benefit:nth-of-type(2) h3 {
+    padding-top: 0;
+  }
+
+  .benefit:last-of-type img {
+    margin-top: 15px;
+    width: 360px;
+  }
+
+  .benefit:last-of-type h3 {
+    margin: 0 0 0 45%;
+  }
+
+  /*********** PROMO-VIDEO ***********/
+
+  .promo-video p {
+    padding: 140px 0 132px;
+  }
+
+  .promo-video img:nth-of-type(4) {
+    left: 160px;
+  }
+
+  .promo-video iframe {
+    width: 530px;
+    left: 235px;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  /*********** PROMO-VIDEO ***********/
+
+  .promo-video img:nth-of-type(4) {
+    width: 600px;
+    left: 150px;
+  }
+
+  .promo-video iframe {
+    width: 490px;
+    height: 280px;
+    left: 220px;
+  }
+
+  /*********** SLIDER ***********/
+
+  #slider {
+    padding: 200px 0 100px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce .container > img:nth-of-type(3) {
+    left: 0;
+  }
+
+  .introduce .container > img:nth-of-type(4) {
+    left: 70px;
+  }
+
+  .introduce .container > img:nth-of-type(5) {
+    left: auto;
+    right: 80px;
+  }
+
+  .introduce .container > img:nth-of-type(6) {
+    top: 160px;
+    right: 5px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  #benefits .benefit:first-of-type h3 {
+    padding-top: 0;
+  }
+
+  .benefit:nth-of-type(2) img {
+    margin-top: 0;
+  }
+
+  .benefit:last-of-type img {
+    margin-top: 25px;
+  }
+
+  .benefit:last-of-type h3 {
+    margin: 0 0 0 50%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  /*********** OFFERS ***********/
+
+  .offers-description img {
+    margin-left: 20%;
+  }
+
+  /*********** PROMO-VIDEO ***********/
+
+  .promo-video img:nth-of-type(4) {
+    width: 500px;
+    top: 60px;
+  }
+
+  .promo-video iframe {
+    width: 390px;
+    height: 220px;
+    top: 130px;
+  }
+
+  /*********** SLIDER ***********/
+
+  #slider {
+    padding: 115px 0 100px;
+  }
+
+  #slider h2 {
+    margin-bottom: 30px;
+  }
+
+  .slide-text h3 {
+    font-size: 20px;
+  }
+
+  .get-offers img {
+    width: 238px;
+    margin-top: 100px;
+  }
+
+  .share-with-friends img {
+    width: 234px;
+    margin-top: 70px;
+  }
+
+  .give-feedback img {
+    width: 223px;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  /*********** BENEFITS ***********/
+
+  #benefits h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  #benefits .benefit:first-of-type h3 {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  /*********** INTRODUCE ***********/
+
+  .introduce {
+    padding: 30px 0 380px;
+  }
+
+  .introduce h1 {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  .introduce .container > img:nth-of-type(2) {
+    width: 650px;
+    top: 220px;
+    left: calc(50% - 325px);
+  }
+
+  .introduce .container > img:nth-of-type(3) {
+    left: 15px;
+    top: 200px;
+  }
+
+  .introduce .container > img:nth-of-type(6) {
+    top: 160px;
+    right: 15px;
+  }
+
+  .introduce .container > img:last-of-type {
+    top: 400px;
+  }
+
+  #search,
+  #search-btn {
+    top: 165px;
+  }
+
+  #search {
+    width: 400px;
+    left: calc(50% - 200px);
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  #search-btn {
+    left: calc(50% + 124px);
+  }
+
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 190px 0 70px;
+  }
+
+  .description-text h2,
+  .description-text h3 {
+    width: 90%;
+  }
+
+  .description-text h2 {
+    margin-bottom: 20px;
+  }
+
+  .description-text span {
+    font-size: 35px;
+  }
+
+  .description-text h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .offers-description img {
+    margin: 20px auto 0;
+  }
+
+  .offers-cards {
+    margin-top: 20px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  #benefits {
+    padding: 70px 0;
+  }
+
+  #benefits h2 {
+    margin-bottom: 30px;
+  }
+
+  .benefit:nth-of-type(2) {
+    margin: 40px 0;
+  }
+
+  .benefit:first-of-type img,
+  .benefit:nth-of-type(2) img,
+  .benefit:last-of-type img {
+    width: 320px;
+  }
+
+  .benefit:nth-of-type(2) img {
+    margin-bottom: 10px;
+  }
+
+  .benefit:last-of-type img {
+    margin-left: -20px;
+  }
+
+  #benefits h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #benefits .benefit:first-of-type h3 {
+    padding-top: 30px;
+  }
+
+  /*********** SLIDER ***********/
+
+  #slider {
+    padding: 100px 0 70px;
+  }
+
+  .slide-text h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #slider .container > div:not(:last-of-type) {
+    margin: 0 0 70px;
+  }
+
+  .get-offers img {
+    width: 214px;
+    margin-top: 0;
+  }
+
+  .share-with-friends img {
+    width: 211px;
+    margin-top: 0;
+  }
+
+  .give-feedback img {
+    width: 201px;
+    margin-top: 0;
+  }
+
+  /*********** CALL-TO-ACTION ***********/
+
+  .call-to-action {
+    padding: 50px 0;
+    height: 300px;
+  }
+
+  .call-to-action h1 {
+    font-size: 36px;
+    line-height: 42px;
+    width: 400px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /*********** OFFERS ***********/
+
+  .card {
+    width: 170px;
+  }
+
+  .card:first-of-type {
+    background: url(../img/icon/goods-sale.svg) no-repeat 56px 6.5px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+  }
+
+  .card:nth-of-type(2) {
+    background: url(../img/icon/tools.svg) no-repeat 56px 10px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+  }
+
+  .card:last-of-type {
+    background: url(../img/icon/market.svg) no-repeat 56px 13px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+  }
+
+  /*********** PROMO-VIDEO ***********/
+
+  .promo-video p {
+    padding: 50px 0 0;
+    text-align: center;
+  }
+
+  .promo-video img:nth-of-type(3) {
+    display: none;
+  }
+
+  .promo-video img:nth-of-type(4) {
+    position: static;
+    margin: -20px 0 50px calc(50% - 250px);
+  }
+
+  .promo-video iframe {
+    top: 115px;
+    left: calc(50% - 200px);
+    width: 420px;
+    height: 235px;
+  }
+
+  /*********** SLIDER ***********/
+
+  #slider {
+    padding: 70px 0;
+  }
+}
+
+@media screen and (max-width: 671px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce {
+    padding: 30px 0 345px;
+  }
+
+  .introduce h1 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  #search,
+  #search-btn {
+    top: 145px;
+    height: 65px;
+  }
+
+  #search {
+    width: 350px;
+    left: calc(50% - 175px);
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  #search-btn {
+    width: 65px;
+    left: calc(50% + 110px);
+    padding: 16.5px;
+  }
+
+  #search-btn img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .introduce .container > img:nth-of-type(2) {
+    width: 600px;
+    top: 195px;
+    left: calc(50% - 300px);
+  }
+
+  .introduce .container > img:nth-of-type(3) {
+    top: 195px;
+  }
+
+  .introduce .container > img:nth-of-type(6) {
+    top: 165px;
+  }
+
+  .introduce .container > img:last-of-type {
+    top: 350px;
+    right: 28px;
+  }
+
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 170px 0 70px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  .benefit:last-of-type h3 {
+    margin: 0 0 0 55%;
+  }
+
+  /*********** SLIDER ***********/
+
+  .slide-text {
+    width: 55%;
+  }
+
+  #slider h2 {
+    font-size: 25px;
+    line-height: 28px;
+    width: 100%;
+  }
+
+  .slide-text h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .get-offers img {
+    width: 193px;
+  }
+
+  .share-with-friends img {
+    width: 190px;
+  }
+
+  .give-feedback img {
+    width: 181px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /*********** BENEFITS ***********/
+
+  #benefits .benefit:first-of-type h3 {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce {
+    padding: 30px 0 315px;
+  }
+
+  .introduce h1 {
+    width: 390px;
+  }
+
+  .introduce .container > img:nth-of-type(2) {
+    width: 520px;
+    left: calc(50% - 260px);
+  }
+
+  .introduce .container > img:nth-of-type(5) {
+    right: 50px;
+  }
+
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 150px 0 70px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  #benefits h2 {
+    width: 460px;
+  }
+
+  .benefit:last-of-type h3 {
+    margin: 0 0 0 60%;
+  }
+}
+
+@media screen and (max-width: 593px) {
+  /*********** OFFERS ***********/
+
+  .offers-description img {
+    width: 450px;
+  }
+
+  .card {
+    width: 150px;
+    padding: 129px 0 0 10px;
+  }
+
+  .card:first-of-type {
+    background: url(../img/icon/goods-sale.svg) no-repeat 58px 31px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+    background-size: 80px, 95%;
+  }
+
+  .card:nth-of-type(2) {
+    background: url(../img/icon/tools.svg) no-repeat 58px 33px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+    background-size: 80px, 95%;
+  }
+
+  .card:last-of-type {
+    background: url(../img/icon/market.svg) no-repeat 56px 35px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+    background-size: 80px, 95%;
+  }
+
+  /*********** SLIDER ***********/
+
+  .get-offers img {
+    width: 174px;
+  }
+
+  .share-with-friends img {
+    width: 171px;
+  }
+
+  .give-feedback img {
+    width: 163px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce .container > img:nth-of-type(4) {
+    left: 35px;
+  }
+
+  .introduce .container > img:nth-of-type(5) {
+    right: 25px;
+  }
+
+  .introduce .container > img:last-of-type {
+    right: 18px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  .benefit:last-of-type {
+    display: block;
+  }
+
+  .benefit:first-of-type img {
+    margin: 0 0 0 calc(50% - 160px);
+    float: none;
+  }
+
+  .benefit:nth-of-type(2) img {
+    margin: 0 0 15px calc(50% - 160px);
+    float: none;
+  }
+
+  .benefit:last-of-type img {
+    position: static;
+    margin: 0 0 0 calc(50% - 160px);
+  }
+
+  #benefits .benefit:last-of-type h3 {
+    margin: 0;
+    width: auto;
+  }
+
+  /*********** SLIDER ***********/
+
+  .slide-text {
+    width: 100%;
+  }
+
+  #slider .container > div:not(:last-of-type) {
+    margin: 0 0 40px;
+  }
+
+  #slider h2 {
+    margin-bottom: 20px;
+  }
+
+  #slider h3:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  .get-offers,
+  .share-with-friends,
+  .give-feedback {
+    flex-wrap: wrap;
+  }
+
+  .get-offers img,
+  .share-with-friends img,
+  .give-feedback img {
+    margin: 10px 0 0 55%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce {
+    padding: 0 0 260px;
+  }
+
+  .introduce h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .introduce .container > img:nth-of-type(2) {
+    width: 430px;
+    top: 150px;
+    left: calc(50% - 215px);
+  }
+
+  .introduce .container > img:nth-of-type(3) {
+    top: 140px;
+    left: 5px;
+  }
+
+  .introduce .container > img:nth-of-type(4) {
+    left: 20px;
+    top: 15px;
+  }
+
+  .introduce .container > img:nth-of-type(5) {
+    right: 10px;
+    top: -8px;
+  }
+
+  .introduce .container > img:nth-of-type(6) {
+    top: 155px;
+  }
+
+  .introduce .container > img:last-of-type {
+    top: 280px;
+    right: 20px;
+  }
+
+  #search,
+  #search-btn {
+    top: 105px;
+    height: 55px;
+  }
+
+  #search {
+    width: 300px;
+    left: calc(50% - 150px);
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #search-btn {
+    width: 55px;
+    left: calc(50% + 95px);
+    padding: 12px;
+  }
+
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 120px 0 70px;
+  }
+
+  .description-text h2,
+  .description-text h3 {
+    width: 100%;
+  }
+
+  .description-text h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .description-text span {
+    font-size: 30px;
+  }
+
+  .description-text h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .offers-description img {
+    width: 380px;
+  }
+
+  .offers-cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 300px;
+    margin: 20px auto 0;
+    padding: 129px 0 0 30px;
+  }
+
+  .card:first-of-type {
+    background: url(../img/icon/goods-sale.svg) no-repeat 170px 25px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+    background-size: 80px, 134px;
+  }
+
+  .card:nth-of-type(2) {
+    background: url(../img/icon/tools.svg) no-repeat 170px 25px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+    background-size: 80px, 134px;
+  }
+
+  .card:last-of-type {
+    background: url(../img/icon/market.svg) no-repeat 170px 25px,
+      url(../img/icon/cubes.svg) no-repeat, #ffffff;
+    background-size: 80px, 134px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  #benefits h2 {
+    width: 320px;
+  }
+
+  /*********** PROMO-VIDEO ***********/
+
+  .promo-video p {
+    padding: 50px 0 315px;
+  }
+
+  .promo-video img:first-of-type {
+    top: 26px;
+    left: 30px;
+  }
+
+  .promo-video img:nth-of-type(4) {
+    display: none;
+  }
+
+  .promo-video iframe {
+    width: 100%;
+    left: auto;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce .container > img:nth-of-type(3) {
+    width: 35px;
+    left: 15px;
+  }
+
+  .introduce .container > img:nth-of-type(4) {
+    width: 31px;
+    left: 40px;
+  }
+
+  .introduce .container > img:nth-of-type(5) {
+    width: 40px;
+    right: 40px;
+  }
+
+  .introduce .container > img:nth-of-type(6) {
+    width: 30px;
+  }
+
+  .introduce .container > img:last-of-type {
+    width: 20px;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  /*********** INTRODUCE ***********/
+
+  .introduce {
+    padding: 0 0 220px;
+  }
+
+  .introduce h1 {
+    width: 100%;
+  }
+
+  .introduce .container > img:nth-of-type(2) {
+    width: 320px;
+    left: calc(50% - 160px);
+    top: 160px;
+  }
+
+  .introduce .container > img:nth-of-type(3) {
+    top: 175px;
+  }
+
+  .introduce .container > img:nth-of-type(4) {
+    left: 30px;
+    top: 5px;
+  }
+
+  .introduce .container > img:nth-of-type(5) {
+    right: 25px;
+  }
+
+  .introduce .container > img:nth-of-type(6) {
+    right: 20px;
+    top: 175px;
+  }
+
+  .introduce .container > img:last-of-type {
+    top: 255px;
+    right: 45px;
+  }
+
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 100px 0 50px;
+  }
+
+  /*********** BENEFITS ***********/
+
+  #benefits {
+    padding: 50px 0;
+  }
+
+  /*********** PROMO-VIDEO ***********/
+
+  .promo-video iframe {
+    height: 215px;
+  }
+
+  /*********** SLIDER ***********/
+
+  #slider {
+    padding: 50px 0;
+  }
+
+  #slider h2 {
+    margin-bottom: 15px;
+  }
+
+  .get-offers img,
+  .share-with-friends img,
+  .give-feedback img {
+    margin-left: 45%;
+  }
+
+  /*********** CALL-TO-ACTION ***********/
+
+  .call-to-action {
+    padding: 50px 0 20px;
+    height: 270px;
+  }
+
+  .call-to-action h1 {
+    font-size: 30px;
+    line-height: 38px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .call-to-action a {
+    width: 300px;
+    padding: 17px 46.5px 19px;
+    margin-left: calc(50% - 150px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 320px;
+  }
+
+  /*********** INTRODUCE ***********/
+
+  .introduce h1 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  #search,
+  #search-btn {
+    top: 95px;
+    height: 55px;
+  }
+
+  .introduce .container > img:nth-of-type(2) {
+    top: 150px;
+  }
+
+  .introduce .container > img:nth-of-type(3) {
+    top: 165px;
+    left: 5px;
+  }
+
+  .introduce .container > img:nth-of-type(4) {
+    left: 15px;
+  }
+
+  .introduce .container > img:nth-of-type(5) {
+    right: 10px;
+  }
+
+  .introduce .container > img:nth-of-type(6) {
+    top: 160px;
+  }
+
+  .introduce .container > img:last-of-type {
+    top: 255px;
+    right: 15px;
+  }
+
+  /*********** OFFERS ***********/
+
+  #offers {
+    padding: 90px 0 50px;
+  }
+
+  .offers-description img {
+    width: 100%;
+  }
+
+  /*********** PROMO-VIDEO ***********/
+
+  .promo-video img:first-of-type {
+    left: 0;
+  }
+
+  .promo-video p {
+    padding: 50px 0 265px;
+  }
+
+  .promo-video iframe {
+    height: 180px;
+  }
+}
